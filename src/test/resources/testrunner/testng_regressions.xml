@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cams Member Portal Automation Test Results PW Suite"  verbose="4">
+
+	
+<listeners>
+	<listener class-name="camsMemberPortal.listners.ExtendReportListners"></listener>
+</listeners>
+	<test name="Member Login Page Test">
+		
+		<classes>
+			<class name="camsMemberPortal.testpackage.memberSignInTest" />
+		</classes>
+	</test>
+
+	
+		
+	
+
+
+
+
+</suite>

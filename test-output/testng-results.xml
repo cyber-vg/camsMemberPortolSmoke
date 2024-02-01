@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-29T18:21:25 IST" name="Cams Member Portal Automation Test Results PW Suite" finished-at="2024-01-29T18:22:29 IST" duration-ms="64700">
+    <groups>
+    </groups>
+    <test started-at="2024-01-29T18:21:25 IST" name="Member Login Page Test" finished-at="2024-01-29T18:22:29 IST" duration-ms="64700">
+      <class name="camsMemberPortal.testpackage.memberSignInTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:21:25 IST" name="setup" finished-at="2024-01-29T18:22:00 IST" duration-ms="35964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signInTitleTest()[pri:1, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:01 IST" name="signInTitleTest" finished-at="2024-01-29T18:22:01 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTitleTest -->
+        <test-method signature="signInURLTest()[pri:2, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:02 IST" name="signInURLTest" finished-at="2024-01-29T18:22:02 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInURLTest -->
+        <test-method signature="validLoginUseEmailTest()[pri:3, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:02 IST" name="validLoginUseEmailTest" finished-at="2024-01-29T18:22:05 IST" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginUseEmailTest -->
+        <test-method signature="validLoginUsePhoneTest()[pri:4, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:05 IST" name="validLoginUsePhoneTest" finished-at="2024-01-29T18:22:08 IST" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginUsePhoneTest -->
+        <test-method signature="invalidLoginUseEmail()[pri:5, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:09 IST" name="invalidLoginUseEmail" finished-at="2024-01-29T18:22:10 IST" duration-ms="1854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginUseEmail -->
+        <test-method signature="invalidLoginUsePhone()[pri:6, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:11 IST" name="invalidLoginUsePhone" finished-at="2024-01-29T18:22:14 IST" duration-ms="3881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginUsePhone -->
+        <test-method signature="invalidLoginUseWrongemailFormat()[pri:7, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:15 IST" name="invalidLoginUseWrongemailFormat" finished-at="2024-01-29T18:22:18 IST" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginUseWrongemailFormat -->
+        <test-method signature="invalidLoginUseWrongPhoneFormat()[pri:8, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:18 IST" name="invalidLoginUseWrongPhoneFormat" finished-at="2024-01-29T18:22:19 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginUseWrongPhoneFormat -->
+        <test-method signature="forgotpasswordUsindInvalidPhoneTest()[pri:9, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:19 IST" name="forgotpasswordUsindInvalidPhoneTest" finished-at="2024-01-29T18:22:21 IST" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordUsindInvalidPhoneTest -->
+        <test-method signature="forgotpasswordUsindInvalidEmailTest()[pri:10, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:21 IST" name="forgotpasswordUsindInvalidEmailTest" finished-at="2024-01-29T18:22:25 IST" duration-ms="3825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordUsindInvalidEmailTest -->
+        <test-method signature="forgotPasswordUsingValidEmailInvalidOTPTest()[pri:11, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:25 IST" name="forgotPasswordUsingValidEmailInvalidOTPTest" finished-at="2024-01-29T18:22:28 IST" duration-ms="3250" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at camsMemberPortal.testpackage.memberSignInTest.forgotPasswordUsingValidEmailInvalidOTPTest(memberSignInTest.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordUsingValidEmailInvalidOTPTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:camsMemberPortal.testpackage.memberSignInTest@bb3ecfe]" started-at="2024-01-29T18:22:29 IST" name="tearDown" finished-at="2024-01-29T18:22:29 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- camsMemberPortal.testpackage.memberSignInTest -->
+    </test> <!-- Member Login Page Test -->
+  </suite> <!-- Cams Member Portal Automation Test Results PW Suite -->
+</testng-results>
